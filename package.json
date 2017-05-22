@@ -1,6 +1,6 @@
 {
   "name": "glsl-simple-loader",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "keywords": [
     "glsl"
   ],
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "glsl-simple-include": "^1.1.1",
-    "read-text-file": "^1.0.2"
+    "read-text-file": "^1.1.0"
   },
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
