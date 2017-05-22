@@ -1,0 +1,30 @@
+{
+  "name": "glsl-simple-loader",
+  "version": "1.0.0",
+  "keywords": [
+    "glsl"
+  ],
+  "author": "matgr1",
+  "license": "MIT",
+  "main": "dist/glsl-simple-loader.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "typings": "dist/glsl-simple-loader.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matgr1/glsl-simple-loader"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.21",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "glsl-simple-include": "^1.1.0",
+    "read-text-file": "^1.0.2"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "prepublish": "npm run build"
+  }
+}
