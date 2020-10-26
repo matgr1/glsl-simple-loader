@@ -1,6 +1,9 @@
 import * as GlslSimpleInclude from "glsl-simple-include";
 import * as ReadTextFile from "read-text-file";
-import path = require("path");
+
+// TODO: get the types working again...
+declare let require: any;
+const path = require("path");
 
 function loader(source: string)
 {

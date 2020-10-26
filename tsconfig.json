@@ -22,7 +22,9 @@
 		"noEmitOnError": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": false,
-		"removeComments": false
+		"removeComments": false,
+
+		"skipLibCheck": true
 	},
 
 	"compileOnSave": false,
